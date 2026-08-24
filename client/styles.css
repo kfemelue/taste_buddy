@@ -101,14 +101,19 @@ textarea:focus{
 }
 
 #awaiting-response-message {
-    /* display: none; */
+    
     justify-self: center;
     order:9999;
+}
+
+.hide-awaiting-response{
+    display: none;
 }
 
 #awaiting-response-message p {
     animation:flash 2s infinite;
 }
+
 
 /* Animation keyframes for flashing text in "Awaiting Server Response Message" */
 @keyframes flash {
